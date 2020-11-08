@@ -8,6 +8,13 @@
     overflow: hidden;
 
 }
+.shadow
+{
+    background-color:rgba(0,0,0,0.3);
+    height: 650px;
+    width: 100%;
+
+}
 .header
 {
     width: 100%;
@@ -15,7 +22,6 @@
     background: url(../images/banner.jpg) no-repeat;
     background-size: cover;
     overflow: hidden;
-
 }
 .logo
 {
@@ -37,6 +43,9 @@
     position: absolute;
     margin-left: 10px;
     color: white;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:-5px;
     
     
 }
@@ -291,8 +300,6 @@
     color: white;
     cursor: pointer;
 }
-
-
 .footer .foot p 
 {
     padding: 10px;
@@ -301,4 +308,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
 
+}
+.name
+{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
