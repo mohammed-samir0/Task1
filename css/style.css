@@ -101,7 +101,77 @@
     -webkit-text-stroke-width:2px;
     line-height: 100px;
 }
+.para
+{
+    float: left;
+    clear: both;
+    margin-left:25%;
+    width: 400px;
+    position:absolute;
+    bottom: 223px;
+    left: 7px;
+    top: 320px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
 
+}
+.button
+{
+    float: left;
+    clear: both;
+    margin-left:25%;
+    width: 400px;
+    position:absolute;
+    cursor: pointer;
+
+}
+
+.button .btn1
+{
+    
+    box-sizing: border-box;
+    border: 2px solid orange;
+    padding: 8px;
+    background-color: transparent;
+    color: #f0950c;
+    border-radius: 10%;
+    position: relative;
+    top: 450px;
+
+
+}
+.button .btn1:hover
+{
+    background-color: #f0950c;
+    transition: all 1s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.button .btn2
+{
+    box-sizing: border-box;
+    border: 2px solid orange;
+    padding: 8px;
+    background-color: transparent;
+    color: #f0950c;
+    border-radius: 10%;
+    position: relative;
+    top: 450px;
+
+
+}
+.button .btn2:hover
+{
+    background-color: #f0950c;
+    transition: all 1s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
 .sec1
 {
     width: 25%;
