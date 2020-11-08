@@ -72,6 +72,16 @@
     
 
 }
+.navbar ul li:first-child
+{
+    color: white;
+    border: 1px solid orange;
+    box-sizing: border-box;
+    border-radius: 15%;
+    background-color: transparent;
+    
+}
+
 .navbar ul li:hover
 {
     color: orange;
@@ -133,8 +143,8 @@
     box-sizing: border-box;
     border: 2px solid orange;
     padding: 8px;
-    background-color: transparent;
-    color: #f0950c;
+    background-color: #f0950c;
+    color: white;
     border-radius: 10%;
     position: relative;
     top: 450px;
